@@ -44,6 +44,11 @@ android {
         //debug.setRoot('build-types/debug')
         //release.setRoot('build-types/release')
     }
+
+    dependencies {
+        compile 'com.android.support:support-v4:23.1.0'
+    }
+
 }
 
 apply plugin: 'maven'
